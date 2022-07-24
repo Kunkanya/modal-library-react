@@ -1,10 +1,25 @@
-# Getting Started with Create React App
+![Create react app](https://img.shields.io/badge/build_with-create_react_app-09D3AC?style=for-the-badge&logo=Create-React-App)
+![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# kunkanyaremmer-react-modal-library
+This project is a modal library for react project. You can freely install it and use it in to your project. The styles of modal can be customized as you wish. 
 
-In the project directory, you can run:
+# Table of contents #
+1. [How to install](#install)
+2. [How to use](#usage)
+3. [Proptypes explaination](#Proptypes)
+4. [Example](#Example)
+
+
+## 1. <a name="install">How to install</a>
+`npm install kunkanyaremmer-react-modal-library`
+
+## 2. <a name="usage">How to use</a>
+
+`import {M`
+
+
 
 ### `npm start`
 

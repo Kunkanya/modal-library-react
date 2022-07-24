@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import '../Modal/Modal.css'
+import './Modal.css'
 
 /**
  * 
@@ -46,7 +46,6 @@ const Modal = ({
                             {modalBodyContent}
                         </section>
                         <section className='modalFooter'>
-
                             <button style={styleButton}
                                 className="button"
                                 onClick={onCloseFunction}>
