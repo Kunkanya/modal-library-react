@@ -1,5 +1,5 @@
 {
-  "name": "r2-react-modal-library",
+  "name": "kunkanyaremmer-modal-react-library",
   "description": "library for react modal",
   "author": "Kunkanya Remmer",
   "keywords": [
@@ -9,14 +9,14 @@
   ],
   "version": "0.1.0",
   "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "files": [
     "dist"
   ],
-  "module": "dist/index.esm.js",
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "rimraf src && rimraf dist",
-    "build": "rollup -c",
+    "build": "rimraf dist && NODE_ENV=production babel src/ --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
