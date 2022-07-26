@@ -13,14 +13,14 @@ This project is to create a modal library for react app project. You can freely 
 
 ## 1. <a name="install">How to install</a>
 ```bash 
-$ npm install remmer-react-modal-library
+$ npm install kunkanya-modal-react-library
 ```
 
 ## 2. <a name="usage">How to use</a>
 Simply import Modal modul on the top of your project whereas it needs.
 
 ```bash
-import { Modal } from 'remmer-react-modal-library
+import { Modal } from 'kunkanya-modal-react-library'
 ```
 
 ## 3. <a name="properties">Modal properties</a>
@@ -51,13 +51,13 @@ The following are the properties of the modal that can be customised.
 ### 4.1 Defaut style modal.
 if you do not wish to change the style od the modal. You can just update your text in `modalBodyContent` and `buttonContent` for optional properties. Then the modal is ready to use. 
 
-![This is a defautl style modal](./src/asset/defaultModal.png)
+![This is a defautl style modal](./public/asset/defaultModal.png)
 
 
 ### 4.2 Customized modal
 You can freely customized your modal as you wish like below colorful example!
 
-![This is a customized style modal](./src/asset/customizedModal.png)
+![This is a customized style modal](./public/asset/customizedModal.png)
 
 ```reactJS
 import React, { useState } from 'react';

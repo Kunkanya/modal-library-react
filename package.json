@@ -1,5 +1,5 @@
 {
-  "name": "kunkanyaremmer-modal-react-library",
+  "name": "kunkanya-modal-react-library",
   "description": "library for react modal",
   "author": "Kunkanya Remmer",
   "keywords": [
@@ -9,8 +9,7 @@
   ],
   "version": "0.1.0",
   "private": false,
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "dist/Modal.js",
   "files": [
     "dist"
   ],
