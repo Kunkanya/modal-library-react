@@ -64,14 +64,20 @@ import React, { useState } from 'react';
 import './App.css';
 import logo from './asset/logo.png'
 
-import Modal from 'r2-react-modal-library/dist/components/Modal';
+import Modal from 'kunkanya-modal-library-react';
 
 
 function Home() {
     const [isShow, setIsShow] = useState(false)
+
     const showModal = () => {
         setIsShow(true)
     }
+
+    const handelCloseModal = () =>{
+        setIsShow(False)
+    }
+
     return (
         <div>
             <button onClick={showModal}>
@@ -80,7 +86,7 @@ function Home() {
             {isShow ?
                 <Modal
                     show={isShow}
-                    onCloseFunction={() => { setIsShow(false) }}
+                    onCloseFunction={handelCloseModal}
                     styleModalWrapper={{ backgroundColor: "pink" }}
                     styleModalContainer={{
                         backgroundColor: "yellow",
